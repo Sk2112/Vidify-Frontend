@@ -1,12 +1,63 @@
-# React + Vite
+# 🎥 Vidify – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **frontend** of VD5, a modern **video streaming platform**, built with **React** and styled using **TailwindCSS**.  
+This repository handles the **UI, routing, authentication, and video player interface**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🔐 **Authentication** – Secure login/signup with Clerk  
+- 🎬 **Video Streaming UI** – Watch videos with a clean player interface  
+- ⬆️ **Video Upload UI** – Upload content via simple forms  
+- 📂 **Dashboard** – Central hub to browse and manage videos  
+- 📞 **Contact Page** – Easy way to reach the dev  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React** + **Vite**  – Frontend framework  
+- **React Router** – Routing  
+- **TailwindCSS** – Styling  
+- **Clerk** – Authentication  
+- **Axios** – API calls to backend  
+- **Toast & Flowbite** – Notifications and UI components
+  
+---
+
+## ⚡ Getting Started
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/Sk2112/Vidify-Frontend.git
+   ```
+2. Install Dependencies  
+   ```bash
+   npm install
+   ```
+3.Create a .env file for environment variable
+   ```env
+   VITE_CLERK_PUBLISHABLE_KEY=your_key_here
+   ```
+4.Start the development server
+   ```bash
+   npm run dev
+   ```
+
+## 📌 Project Roadmap
+- Add video categories & search
+- Live streaming integration
+- User profiles & playlists
+- Admin dashboard for video moderation
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss.
+
+## 📧 Contact
+Built with ❤️ by Sumit Kumar
+---
+- Linkedin : https://www.linkedin.com/in/21sk12/
+
+## Backend Code
+---
+- https://github.com/Sk2112/Vidify-Backend
+
