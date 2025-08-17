@@ -5,6 +5,24 @@ This repository handles the **UI, routing, authentication, and video player inte
 
 ---
 
+## 🚀 Screenshots of Intrface
+
+1. **Dashboard** **Page** 
+<img width="1917" height="946" alt="image" src="https://github.com/user-attachments/assets/6a323dc5-13ab-48d4-94d8-b17992e09f63" />
+
+ ---
+
+2. **Video** **Uplaoding** **Section**
+<img width="1919" height="954" alt="image" src="https://github.com/user-attachments/assets/20946ed3-2252-47f5-b3a1-c210ba279885" />
+
+---
+
+3. **Video** **Stremaing** **Section**
+ <img width="1057" height="957" alt="image" src="https://github.com/user-attachments/assets/e987b8d8-b7ff-4b77-9bcc-fee9faba6638" />
+
+
+---
+
 ## 🚀 Features
 - 🔐 **Authentication** – Secure login/signup with Clerk  
 - 🎬 **Video Streaming UI** – Watch videos with a clean player interface  
