@@ -5,10 +5,13 @@ import VideoStreamingPerson from '../assets/image1.png'
 import axios from "axios";
 import { Play, Trash2 } from "lucide-react";
 import toast from "react-hot-toast";
+import NothingShow from "../assets/Nothing.png"
+import { Link } from "react-router-dom";
 
 export default function VideoStream() {
   const [videos, setVideos] = useState([]);
    const [selectedVideo, setSelectedVideo] = useState(null);
+
 
    // getting all the videos from the backend
  useEffect(() => {
@@ -153,7 +156,9 @@ export default function VideoStream() {
           className="relative z-10 mt-15 rounded-3xl border-neutral-200 bg-neutral-100 p-4 shadow-md dark:bg-neutral-900 w-full"
         >
           <div className="w-full overflow-hidden text-center">
-            <table className="text-white font-bold w-full border bg-gray-800 hover:bg-gray-700 cursor-default">
+
+             {/* table starts here */}
+            {videos.length >0 ? (<table className="text-white font-bold w-full border bg-gray-800 hover:bg-gray-700 cursor-default">
               <thead className="bg-gray-800">
                 <tr>
                   <th className="p-2 border">Serial No.</th>
@@ -188,7 +193,26 @@ className="cursor-pointer  text-blue-400"
                   </tr>
                 ))}
               </tbody>
-            </table>
+            </table>) :(
+
+<div className=" flex  flex-row-reverse bg-black ">
+  <div >
+  <img src={NothingShow} alt="Nothing Image" width={300}/> 
+</div>
+<div className="text-white  w-full flex flex-col justify-evenly">
+ 
+   <div className="flex justify-center space-x-3">
+   <Link
+                to="/upload"
+                className="rounded-md border border-gray-400 px-6 py-3 text-sm font-semibold text-white hover:bg-white/10"
+              >
+                Upload Video
+              </Link>
+   </div>
+  </div>
+</div>
+)}
+            {/* table End Here  */}
           </div>
         </motion.div>
 </div>
