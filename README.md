@@ -50,14 +50,13 @@ This repository handles the **UI, routing, authentication, and video player inte
 - Admin dashboard for video moderation
 
 ## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss.
+   Pull requests are welcome! For major changes, please open an issue first to discuss.
 
 ## 📧 Contact
-Built with ❤️ by Sumit Kumar
----
+   Built with ❤️ by Sumit Kumar
 - Linkedin : https://www.linkedin.com/in/21sk12/
 
-## Backend Code
----
+## 🧑‍💻 Backend Code
+
 - https://github.com/Sk2112/Vidify-Backend
 
