@@ -1,0 +1,12 @@
+video::-webkit-media-controls-panel {
+  background-color: black !important;
+}
+
+video::-webkit-media-controls-play-button {
+  background-color: red !important;
+  border-radius: 50%;
+}
+
+video::-webkit-media-controls-timeline {
+  background-color: red !important;
+}
