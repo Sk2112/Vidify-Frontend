@@ -52,11 +52,11 @@ This repository handles the **UI, routing, authentication, and video player inte
    ```bash
    npm install
    ```
-3.Create a .env file for environment variable
+3. Create a .env file for environment variable
    ```env
    VITE_CLERK_PUBLISHABLE_KEY=your_key_here
    ```
-4.Start the development server
+4. Start the development server
    ```bash
    npm run dev
    ```
@@ -68,7 +68,7 @@ This repository handles the **UI, routing, authentication, and video player inte
 - Admin dashboard for video moderation
 
 ## 🤝 Contributing
-   Pull requests are welcome! For major changes, please open an issue first to discuss.
+- Pull requests are welcome! For major changes, please open an issue first to discuss.
 
 ## 📧 Contact
    Built with ❤️ by Sumit Kumar
