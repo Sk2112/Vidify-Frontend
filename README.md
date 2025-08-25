@@ -1,6 +1,6 @@
 # 🎥 Vidify – Frontend
 
-The **frontend** of VD5, a modern **video streaming platform**, built with **React** and styled using **TailwindCSS**.  
+The **frontend** of Vidify, a modern **video streaming platform**, built with **React** and styled using **TailwindCSS**.  
 This repository handles the **UI, routing, authentication, and video player interface**.
 
 ---
